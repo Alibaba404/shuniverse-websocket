@@ -9,7 +9,7 @@
 <dependency>
     <groupId>cn.shuniverse</groupId>
     <artifactId>shuniverse-websocket</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
 </dependency>
 ```
 - 在项目启动类添加 `cn.shuniverse.websocket`包的扫描
