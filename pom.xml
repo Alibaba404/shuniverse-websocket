@@ -6,7 +6,7 @@
 
     <groupId>cn.shuniverse</groupId>
     <artifactId>shuniverse-websocket</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>shuniverse-websocket</name>
@@ -68,14 +68,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>cn.shuniverse</groupId>
-            <artifactId>shuniverse-base</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
     </dependencies>
 

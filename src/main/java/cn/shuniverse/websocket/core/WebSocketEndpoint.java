@@ -2,10 +2,10 @@ package cn.shuniverse.websocket.core;
 
 import cn.shuniverse.websocket.core.encoder.WebSocketMessageEncoder;
 import cn.shuniverse.websocket.handler.IWebsocketHandler;
+import cn.shuniverse.websocket.utils.SpringContextHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import cn.shuniverse.base.utils.SpringContextHolder;
 
 import javax.websocket.OnClose;
 import javax.websocket.OnError;
